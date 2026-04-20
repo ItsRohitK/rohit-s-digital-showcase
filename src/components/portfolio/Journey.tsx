@@ -34,8 +34,8 @@ const items: Item[] = [
     org: "National Institute of Technology, Trichy",
     period: "2024 — 2027",
     detail:
-      "AIR 34 in NIMCET 2024 · CGPA 9.24/10. Coursework across DSA, OS, DBMS, OOP and System Design.",
-    meta: "9.24 CGPA",
+      "AIR 34 in NIMCET 2024 · CGPA 9.39/10. Coursework across DSA, OS, DBMS, OOP and System Design.",
+    meta: "9.39 CGPA",
   },
   {
     type: "edu",
