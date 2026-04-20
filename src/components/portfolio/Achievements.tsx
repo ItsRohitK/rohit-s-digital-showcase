@@ -12,15 +12,15 @@ const items = [
   },
   {
     icon: Award,
-    headline: "9.24 CGPA",
+    headline: "9.39 CGPA",
     title: "MCA · NIT Trichy",
     detail:
       "Consistent academic performer across DSA, OS, DBMS, OOP and System Design coursework.",
   },
   {
     icon: Sparkles,
-    headline: "1778 rating",
-    title: "LeetCode (Top 8.4%)",
+    headline: "1796 rating",
+    title: "LeetCode",
     detail:
       "Active competitive programmer — sharpening problem-solving across DS&A patterns.",
   },
