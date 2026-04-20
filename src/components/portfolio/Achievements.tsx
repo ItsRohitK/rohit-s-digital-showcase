@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Award, Code2, Medal, Trophy } from "lucide-react";
+import { Award, Medal, Sparkles, Trophy } from "lucide-react";
 import { SectionHeader } from "./SectionHeader";
 
 const items = [
@@ -18,7 +18,7 @@ const items = [
       "Consistent academic performer across DSA, OS, DBMS, OOP and System Design coursework.",
   },
   {
-    icon: Code2,
+    icon: Sparkles,
     headline: "1778 rating",
     title: "LeetCode (Top 8.4%)",
     detail:

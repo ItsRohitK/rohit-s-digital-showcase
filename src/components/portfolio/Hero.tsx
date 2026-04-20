@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail, Sparkles } from "lucide-react";
+import { ArrowDown, Mail } from "lucide-react";
+import { GithubIcon, LinkedinIcon, LeetcodeIcon } from "./icons";
 
 export function Hero() {
   return (
@@ -99,19 +100,19 @@ export function Hero() {
             </div>
             <div className="mt-5 flex items-center gap-3 sm:max-w-sm justify-end">
               <SocialIcon href="https://github.com/ItsRohitK" label="GitHub">
-                <Github size={18} />
+                <GithubIcon className="h-[18px] w-[18px]" />
               </SocialIcon>
               <SocialIcon
                 href="https://linkedin.com/in/rohit-kumar-243764346"
                 label="LinkedIn"
               >
-                <Linkedin size={18} />
+                <LinkedinIcon className="h-[18px] w-[18px]" />
               </SocialIcon>
               <SocialIcon
                 href="https://leetcode.com/u/itsrohitnitt"
                 label="LeetCode"
               >
-                <Sparkles size={18} />
+                <LeetcodeIcon className="h-[18px] w-[18px]" />
               </SocialIcon>
             </div>
           </motion.div>

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight, Github, Star } from "lucide-react";
+import { ArrowUpRight, Star } from "lucide-react";
+import { GithubIcon } from "./icons";
 import { SectionHeader } from "./SectionHeader";
 
 type Project = {
@@ -164,7 +165,7 @@ function ProjectCard({ p, index }: { p: Project; index: number }) {
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-4 py-2 text-sm transition-colors hover:border-lime hover:text-lime"
               >
-                <Github size={14} /> Code
+                <GithubIcon className="h-3.5 w-3.5" /> Code
               </a>
             )}
             {p.demo && (

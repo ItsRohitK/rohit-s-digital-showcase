@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight, Github, Linkedin, Mail, Sparkles } from "lucide-react";
+import { ArrowUpRight, Mail } from "lucide-react";
+import { GithubIcon, LeetcodeIcon, LinkedinIcon } from "./icons";
 
 export function Contact() {
   return (
@@ -45,19 +46,19 @@ export function Contact() {
           <div className="mt-12 grid gap-3 sm:grid-cols-3 max-w-2xl">
             <Link
               href="https://github.com/ItsRohitK"
-              icon={<Github size={16} />}
+              icon={<GithubIcon className="h-4 w-4" />}
               label="GitHub"
               handle="@ItsRohitK"
             />
             <Link
               href="https://linkedin.com/in/rohit-kumar-243764346"
-              icon={<Linkedin size={16} />}
+              icon={<LinkedinIcon className="h-4 w-4" />}
               label="LinkedIn"
               handle="rohit-kumar"
             />
             <Link
               href="https://leetcode.com/u/itsrohitnitt"
-              icon={<Sparkles size={16} />}
+              icon={<LeetcodeIcon className="h-4 w-4" />}
               label="LeetCode"
               handle="itsrohitnitt"
             />
