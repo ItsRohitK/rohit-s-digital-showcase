@@ -28,25 +28,6 @@ const groups = [
   },
 ];
 
-const marquee = [
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "MongoDB",
-  "PostgreSQL",
-  "Tailwind CSS",
-  "Express",
-  "Prisma",
-  "Java",
-  "C++",
-  "Python",
-  "DSA",
-  "System Design",
-  "Groq",
-  "Firebase",
-];
-
 export function Skills() {
   return (
     <section id="skills" className="relative py-32">
@@ -78,24 +59,6 @@ export function Skills() {
                 ))}
               </ul>
             </motion.div>
-          ))}
-        </div>
-      </div>
-
-      {/* Marquee */}
-      <div className="relative mt-24 flex overflow-hidden border-y border-border bg-surface/30 py-6">
-        <div className="marquee flex shrink-0 items-center gap-12 pr-12 font-display text-3xl sm:text-5xl whitespace-nowrap">
-          {[...marquee, ...marquee].map((m, i) => (
-            <span
-              key={i}
-              className={
-                i % 2 === 0
-                  ? "text-foreground"
-                  : "text-transparent [-webkit-text-stroke:1px_var(--foreground)]"
-              }
-            >
-              {m} <span className="text-lime">★</span>
-            </span>
           ))}
         </div>
       </div>
