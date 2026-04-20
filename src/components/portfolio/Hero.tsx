@@ -20,20 +20,7 @@ export function Hero() {
       />
 
       <div className="relative mx-auto max-w-7xl px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          className="inline-flex items-center gap-2 rounded-full border border-border bg-surface/60 px-4 py-1.5 text-xs font-mono text-muted-foreground backdrop-blur"
-        >
-          <span className="relative flex h-2 w-2">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-lime opacity-75" />
-            <span className="relative inline-flex h-2 w-2 rounded-full bg-lime" />
-          </span>
-          Available for SDE / Internship roles
-        </motion.div>
-
-        <h1 className="font-display mt-8 text-[clamp(3rem,12vw,11rem)] font-bold leading-[0.85] tracking-tighter">
+        <h1 className="font-display text-[clamp(3rem,12vw,11rem)] font-bold leading-[0.85] tracking-tighter">
           <motion.span
             initial={{ opacity: 0, y: 60 }}
             animate={{ opacity: 1, y: 0 }}
@@ -93,10 +80,10 @@ export function Hero() {
             className="lg:col-span-5 lg:justify-self-end"
           >
             <div className="grid grid-cols-2 gap-3 sm:max-w-sm">
-              <Stat label="CGPA / 10" value="9.24" />
-              <Stat label="LeetCode rating" value="1778" />
+              <Stat label="CGPA / 10" value="9.39" />
+              <Stat label="LeetCode rating" value="1796" />
               <Stat label="AIR · NIMCET'24" value="34" />
-              <Stat label="Top globally" value="8.4%" />
+              <Stat label="MCA · NIT Trichy" value="'24-'26" />
             </div>
             <div className="mt-5 flex items-center gap-3 sm:max-w-sm justify-end">
               <SocialIcon href="https://github.com/ItsRohitK" label="GitHub">

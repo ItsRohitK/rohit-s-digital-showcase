@@ -16,23 +16,29 @@ export function About() {
             className="lg:col-span-7"
           >
             <p className="font-display text-3xl sm:text-4xl lg:text-5xl font-medium leading-[1.15] tracking-tight text-balance">
-              I build <span className="text-lime">end-to-end web products</span>{" "}
-              — from a blinking cursor to a deployed, scalable system that real
-              people use every day.
+              I turn <span className="text-lime">ambitious ideas</span> into
+              fast, reliable products — engineered with care from the database
+              schema all the way to the last pixel.
             </p>
             <div className="mt-10 space-y-6 text-lg text-muted-foreground leading-relaxed max-w-2xl">
               <p>
-                Currently pursuing my MCA at{" "}
-                <span className="text-foreground">NIT Trichy</span> after
-                cracking <span className="text-foreground">AIR 34 in NIMCET 2024</span>.
-                I spend most of my time wiring up MERN & Next.js stacks, exploring
-                AI tooling, and grinding LeetCode (rating 1778, top 8.4%).
+                I'm a full-stack engineer and{" "}
+                <span className="text-foreground">MCA student at NIT Trichy</span>{" "}
+                (AIR 34, NIMCET 2024) with a deep love for clean architecture,
+                thoughtful UX, and the kind of systems that quietly do their job
+                under load. I work most often across the{" "}
+                <span className="text-foreground">MERN and Next.js</span> stack,
+                with a growing focus on AI-augmented products.
               </p>
               <p>
-                Recently interned at <span className="text-foreground">ShopU</span>,
-                where I shipped React frontends and an eCommerce backend on
-                Next.js, Prisma, Neon Postgres and Zod — getting comfortable with
-                the messy, exciting reality of production code.
+                I've shipped a production eCommerce stack at{" "}
+                <span className="text-foreground">ShopU</span> on Next.js,
+                Prisma and Neon Postgres, built an{" "}
+                <span className="text-foreground">NLP-driven mess analytics
+                platform</span> using Wink-NLP and Groq's Llama 3, and currently
+                lead PR for <span className="text-foreground">VERSION'26</span>{" "}
+                at NITT. Off the keyboard, you'll find me on LeetCode (1796),
+                deep in a system design book, or chasing the next side project.
               </p>
             </div>
           </motion.div>

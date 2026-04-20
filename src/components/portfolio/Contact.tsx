@@ -65,12 +65,8 @@ export function Contact() {
           </div>
         </motion.div>
 
-        <footer className="mt-16 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between text-sm text-muted-foreground">
+        <footer className="mt-16 flex items-center justify-between text-sm text-muted-foreground">
           <p className="font-mono">© {new Date().getFullYear()} Rohit Kumar</p>
-          <p>
-            Designed & built with{" "}
-            <span className="text-lime">React + Framer Motion</span>.
-          </p>
         </footer>
       </div>
     </section>
