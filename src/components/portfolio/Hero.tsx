@@ -83,7 +83,7 @@ export function Hero() {
               <Stat label="CGPA / 10" value="9.39" />
               <Stat label="LeetCode rating" value="1796" />
               <Stat label="AIR · NIMCET'24" value="34" />
-              <Stat label="MCA · NIT Trichy" value="'24-'26" />
+              <Stat label="MCA · NIT Trichy" value="'24-'27" />
             </div>
             <div className="mt-5 flex items-center gap-3 sm:max-w-sm justify-end">
               <SocialIcon href="https://github.com/ItsRohitK" label="GitHub">
